@@ -28,6 +28,7 @@ const addNote = () => {
 
 <template>
   <main>
+    <h1>Hej</h1>
     <div v-if="showModal" class="overlay">
       <div class="modal">
         <textarea v-model.trim ="newNote" name="note" id="note" cols="30" rows="10"></textarea>
